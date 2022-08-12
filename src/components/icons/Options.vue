@@ -1,0 +1,47 @@
+<template>
+    <div class="options-icon">
+        <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+            d="M18.7778 1H3.22222C1.99492 1 1 1.99492 1 3.22222V18.7778C1 20.0051 1.99492 21 3.22222 21H18.7778C20.0051 21 21 20.0051 21 18.7778V3.22222C21 1.99492 20.0051 1 18.7778 1Z"
+            stroke="#8854DD"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            />
+            <path
+            d="M1 7.66675H21"
+            stroke="#8854DD"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            />
+            <path
+            d="M7.66663 21.0001V7.66675"
+            stroke="#8854DD"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            />
+        </svg>
+    </div>
+</template>
+
+<style lang="scss">
+.options-icon {
+    box-shadow: 0px 4px 8px 0px #6668A01A;
+    border-radius: 8px;
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+</style>
